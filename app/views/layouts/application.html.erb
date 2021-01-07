@@ -15,7 +15,7 @@
     <% if active_sale? %>
       <div class="alert alert-info">
         <p>
-          Theres an active <%= "Christmas Sale" %> right now! Everything is <%= 15 %> % off!
+          Theres an active <%= present_sale[0].name %> right now! Everything is <%= present_sale[0].percent_off %>% off!
         </p>    
       </div>
     <% end %>  
