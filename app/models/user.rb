@@ -8,7 +8,7 @@ class User < ActiveRecord::Base
   validates :password, length: { minimum: 4 }, confirmation: true
 
   def self.authenticate_with_credentials(email, password)
-    user = User.find_by_email(email)
+    user = User.find_by_email(email.strip.downcase)
       # If the user exists AND the password entered is correct.
 
     if user && user.authenticate(password)
@@ -17,7 +17,7 @@ class User < ActiveRecord::Base
       return user
     else
       # If user's login doesn't work, send them back to the login form.
-      return false
+      return nil
     end
   end  
 
