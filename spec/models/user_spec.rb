@@ -15,8 +15,16 @@ RSpec.describe User, type: :model do
       expect(@user2.errors.full_messages).to include("Email has already been taken")
     end
     
-
   end
+
+  describe '.authenticate_with_credentials' do
+    it "validates a login" do
+      @user = User.create(:name => "Hilary Swank", :email => "hilary.swank@imdb.com", :password => "Tina", :password_confirmation => "Tina")
+      expect(@user).to be_valid
+      puts @user
+      @extra = User.authenticate_with_credentials("hilary.swank@imdb.com", "Tina")
+    end
+  end  
 
 
 end
