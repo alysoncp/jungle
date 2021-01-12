@@ -38,6 +38,6 @@ RSpec.describe Product, type: :model do
       expect(@product.errors.full_messages).to include("Name can't be blank")
     end
 
-end
+  end
 
 end
