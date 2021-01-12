@@ -7,7 +7,7 @@ RSpec.feature "Visitor navigates to Product Details page", type: :feature, js: t
     @category = Category.create! name: 'Apparel'
 
       @category.products.create!(
-        name:  "Fancy Man Shirt",
+        name:  Faker::Hipster.sentence(3),
         description: Faker::Hipster.paragraph(4),
         image: open_asset('apparel1.jpg'),
         quantity: 10,
