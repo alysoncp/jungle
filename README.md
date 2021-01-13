@@ -27,6 +27,33 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Stripe
 
 
-## Display all Products on the Main Page
+## Main Page
+
+Main page displays all products available
 
 !["Home page pic"](https://github.com/alysoncp/jungle/blob/master/docs/Screenshot%20from%202021-01-12%2015-54-34.png?raw=true)
+
+## Product Details
+
+Click on any individual product to see more details for the item.
+
+!["Product Details"](https://github.com/alysoncp/jungle/blob/master/docs/Screenshot%20from%202021-01-12%2015-54-55.png?raw=true)
+
+## Signup & Login
+
+Users can signup for an account and log in to view their orders
+
+![Signup and login](https://github.com/alysoncp/jungle/blob/master/docs/Screenshot%20from%202021-01-12%2015-55-36.png?raw=true)
+
+## Admin Features
+
+Users with admin password can view how many products (in how many categories) are available ont he site. Admins can also add or remove new products and add categories.
+
+![Admin](https://github.com/alysoncp/jungle/blob/master/docs/Screenshot%20from%202021-01-12%2015-56-11.png?raw=true)
+
+## Cart
+
+Users can view their cart, update quantities and see total bill. Click 'Pay with Card' to pay via the stripe API
+
+![Cart](https://github.com/alysoncp/jungle/blob/master/docs/Screenshot%20from%202021-01-12%2015-56-53.png?raw=true)
+
