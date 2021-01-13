@@ -29,4 +29,4 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Display all Products on the Main Page
 
-[Home page pic](https://github.com/alysoncp/jungle/blob/master/docs/Screenshot%20from%202021-01-12%2015-54-34.png?raw=true)
+!["Home page pic"](https://github.com/alysoncp/jungle/blob/master/docs/Screenshot%20from%202021-01-12%2015-54-34.png?raw=true)
